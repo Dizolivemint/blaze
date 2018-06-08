@@ -36,7 +36,7 @@ gulp.task('build', () => {
   return build;
 });
 
-gulp.task('file-size', () => gulp.src('./dist/blaze*.min.css')
+gulp.task('file-size', () => gulp.src('../css/blaze.min.css')
     .pipe(size({
       gzip: true,
       showFiles: true

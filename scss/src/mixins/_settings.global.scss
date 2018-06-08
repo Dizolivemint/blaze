@@ -82,7 +82,7 @@ $color-yellow: #FFEB3B !default;
 $color-orange: #FF9800 !default;
 $color-brown: #795548 !default;
 
-$color-brand: #2C3E50 !default;
+$color-brand: #3180C2 !default;
 $color-info: $color-blue !default;
 $color-warning: $color-orange !default;
 $color-success: $color-green !default;
@@ -659,7 +659,7 @@ $nav-light-background-color: map-get($colors, beige) !default;
 $nav-light-color: map-get($colors, brown-darker) !default;
 $nav-item-padding: $spacing-medium !default;
 $nav-item-letter-spacing: 1px !default;
-$nav-item-hover-background-color: map-get($colors, grey-darker) !default;
+$nav-item-hover-background-color: map-get($colors, brand-lighter) !default;
 $nav-item-hover-color: map-get($colors, white) !default;
 $nav-item-brand-hover-background-color: map-get($colors, brand) !default;
 $nav-item-brand-hover-color: map-get($colors, white) !default;

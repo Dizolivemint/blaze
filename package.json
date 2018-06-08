@@ -46,7 +46,9 @@
     "url": "https://github.com/BlazeUI/blaze/issues"
   },
   "homepage": "https://www.blazeui.com",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
   "devDependencies": {
     "pre-commit": "^1.2.2"
   }
